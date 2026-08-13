@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>For Ladoooo ❤️</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<section class="screen active" id="s0"><div class="blob"></div><div class="card">
+<div class="sticker">🎀</div><p class="tiny">A tiny website made with a very big heart</p>
+<h1>Hey<br><span>Ladoooo...</span> 👀</h1><p>I have something very important to show you.</p>
+<button class="primary" data-next="s1">Okay, show me 💗</button></div></section>
+
+<section class="screen" id="s1"><div class="card">
+<div class="emoji">🥺</div><p class="tiny">Before we continue...</p><h2>Are you ready<br>for your surprise?</h2>
+<div class="choices"><button class="primary" id="yes">YES ❤️</button><button class="secondary" id="no">No 😒</button></div>
+<p id="noMsg" class="hint"></p></div></section>
+
+<section class="screen" id="s2"><div class="card">
+<div class="emoji">💌</div><p class="tiny">Okay... you said yes.</p><h2>Let's start<br>with <span>us.</span></h2>
+<p class="copy">This little world is made from memories, words, and tiny pieces of my heart.</p>
+<button class="primary" data-next="s3">Take me there ✨</button></div></section>
+
+<section class="screen wide" id="s3"><div class="card">
+<p class="tiny">01 · OUR MEMORIES</p><h2>A few of my<br><span>favorite moments</span> 📸</h2>
+<div class="gallery">
+<button class="pic" data-img="images/photo1.jpg" data-cap="One of those moments I wish I could replay."><img src="images/photo1.jpg" onerror="this.src='https://placehold.co/600x750/ffdce8/9c3f5c?text=YOUR+PHOTO+1'"><b>memory 01</b></button>
+<button class="pic" data-img="images/photo2.jpg" data-cap="You make ordinary days feel special."><img src="images/photo2.jpg" onerror="this.src='https://placehold.co/600x750/eadfff/6f4a86?text=YOUR+PHOTO+2'"><b>memory 02</b></button>
+<button class="pic" data-img="images/photo3.jpg" data-cap="A memory I am keeping forever."><img src="images/photo3.jpg" onerror="this.src='https://placehold.co/600x750/dff3f1/477b75?text=YOUR+PHOTO+3'"><b>memory 03</b></button>
+<button class="pic" data-img="images/photo4.jpg" data-cap="And this is only the beginning."><img src="images/photo4.jpg" onerror="this.src='https://placehold.co/600x750/fff0d6/88663d?text=YOUR+PHOTO+4'"><b>memory 04</b></button>
+</div><button class="primary" data-next="s4">There is more... 💕</button></div></section>
+
+<section class="screen" id="s4"><div class="card">
+<div class="envelope" id="envelope"><div class="env-back"></div><div class="paper">For you,<small>tap to open 💌</small></div><div class="flap"></div><div class="env-front"></div></div>
+<p class="tiny">I wrote this myself</p><h2>Open my<br><span>little letter</span> 💌</h2><button class="primary" id="openLetter">Open it</button></div></section>
+
+<section class="screen" id="s5"><div class="card letter">
+<p class="tiny">Dear Ladoooo,</p><h2>Happy Birthday,<br><span>my favorite person.</span> ❤️</h2>
+<p>I hope you know how special you are to me. You have this beautiful way of making normal moments feel like memories worth keeping.</p>
+<p>Thank you for every laugh, every conversation, every silly moment and every little thing that makes you, you.</p>
+<p>I can't fit everything I feel into one webpage, but I can promise to keep making memories with you.</p>
+<p>So today, smile a little more, enjoy your day, and remember that someone is very, very happy that you exist.</p>
+<p class="signature">Always yours,<br><b id="yourName">Your Name</b> ♥</p>
+<button class="primary" data-next="s6">One more thing 🎁</button></div></section>
+
+<section class="screen" id="s6"><div class="card">
+<div class="emoji">🎁</div><p class="tiny">Three tiny presents</p><h2>Pick one.<br><span>Or pick all three.</span> 😌</h2>
+<div class="gifts">
+<button class="gift" data-text="A giant virtual hug 🤗 — redeem it whenever you need one.">🎁<small>Gift 01</small></button>
+<button class="gift" data-text="One date of your choice ❤️ — you choose the place, I bring the company.">🎁<small>Gift 02</small></button>
+<button class="gift" data-text="A promise ✨ — more laughs, adventures, and memories together.">🎁<small>Gift 03</small></button>
+</div><button class="primary" data-next="s7">Next surprise 👀</button></div></section>
+
+<section class="screen" id="s7"><div class="card">
+<p class="tiny">Tiny relationship test 🎮</p><h2>How well do<br><span>you know us?</span></h2>
+<div class="quizbar"><span id="qnum">1 / 5</span><span id="score">0 ❤️</span></div>
+<h3 id="question"></h3><div id="answers"></div><p id="feedback" class="hint"></p></div></section>
+
+<section class="screen" id="s8"><div class="card">
+<div class="record" id="record">♥</div><p class="tiny">Our little soundtrack 🎵</p><h2>This one is<br><span>for us.</span></h2>
+<p class="copy">Add your song as <b>music/song.mp3</b>.</p><button class="primary" id="play">▶ Play our song</button>
+<audio id="audio" src="music/song.mp3"></audio><button class="text" data-next="s9">Skip to final surprise →</button></div></section>
+
+<section class="screen" id="s9"><div class="card final">
+<div class="stars">✨ 💗 ✨</div><p class="tiny">Okay, Ladoooo...</p><h2>I saved the<br><span>best part for last.</span></h2>
+<p class="copy">Click the button. ❤️</p><button class="primary big" id="final">Make a wish with me 🎂</button>
+<div id="reveal" class="reveal hidden"><div class="cake">🎂</div><h3>Happy Birthday, Ladoooo! ❤️</h3><p>May this year be full of laughter, adventures, beautiful surprises and everything your heart deserves.</p><strong>I love you meri rasmallai. Always. ✨</strong></div></div></section>
+</main>
+
+<div id="fx"></div><div id="photoModal" class="modal hidden"><button class="close">×</button><img id="bigPhoto"><p id="caption"></p></div>
+<div id="giftModal" class="modal hidden"><button class="close">×</button><div class="giftBig">🎁</div><h3>A little gift for you ♥</h3><p id="giftText"></p></div>
+<script src="script.js"></script>
+</body></html>
